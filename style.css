@@ -1,0 +1,112 @@
+body {
+  font-family: "roboto", sans-serif;
+  width: 1102px;
+  margin: auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  width: 25%;
+  padding-top: 25px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+}
+#banniere {
+  height: 450px;
+  background-image: url(img/backgroung_image.jpg);
+  background-size: contain;
+}
+#banniere img {
+  width: 200px;
+  padding-top: 160px;
+  display: flex;
+  margin: auto;
+}
+#banniere h1 {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+.corps {
+  width: 75%;
+  text-align: center;
+  color: grey;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.images {
+  width: 100%;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.img {
+  padding: 0 10px;
+}
+.img h3 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+.img p {
+  font-size: 86%;
+}
+blockquote {
+  width: 74%;
+  font-size: 1.3em;
+  text-align: center;
+  margin: auto;
+}
+footer {
+  color: white;
+  background-color: darkslateblue;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.icones {
+  width: 33%;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  font-size: 125%;
+}
+.icones a {
+  display: flex;
+  color: lightgrey;
+  text-decoration: none;
+  justify-content: center;
+}
+.categories {
+  display: flex;
+  justify-content: space-around;
+}
+.categories h5 {
+  color: lightgrey;
+  font-size: 110%;
+  font-weight: 400;
+}
+.categories a {
+  text-decoration: none;
+  color: white;
+}
+h4 {
+  text-align: center;
+}
+address {
+  padding-left: 35px;
+  font-size: 85%;
+  line-height: 5px;
+  font-style: initial;
+}
